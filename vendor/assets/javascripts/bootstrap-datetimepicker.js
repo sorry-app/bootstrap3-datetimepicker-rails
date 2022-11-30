@@ -932,6 +932,7 @@
                     component.toggleClass('active');
                 }
                 widget.hide();
+                keyState = {};
 
                 $(window).off('resize', place);
                 widget.off('click', '[data-action]');
